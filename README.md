@@ -18,25 +18,25 @@
 ```sql
 INSERT INTO User VALUES (1, 'Aaliya', 'aaliya@gmail.com');
 INSERT INTO Product VALUES (1, 'SmartPhone', 19999, '5G phone', 1);
-```sql
+```
 
 ### 🔹 Handle Null
 ```sql
 INSERT INTO User (user_id, u_name, email) VALUES (2, 'Neha', NULL);
 INSERT INTO Payment (pay_id, methods, amount, user_id) VALUES (1002, NULL, 1500, 2);
-```sql
+```
 
 ### 🔹 Update and Delete Data
 ```sql
 UPDATE User SET u_name = 'Rahul Sharma' WHERE user_id = 2;
 DELETE FROM User WHERE user_id = 3;
-```sql
+```
 
 ## 🧪 Output Checked With:
 ```sql
 SELECT * FROM User;
 SELECT * FROM Product;
-```sql
+```
 
 ## 📌 Summary
 Inserted records into all tables
